@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+	
+	<definition name="Login.definition" template="/loadLoginPage.jsp">
+	</definition>
+	<definition name="AfterLogin.definition" template="/afterLogin/AfterLogin_Layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/afterLogin/AfterLoginHeader.jsp" />
+		<put-attribute name="menu" value="/afterLogin/AfterLoginMenu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/afterLogin/AfterLoginFooter.jsp" />
+	</definition>
+	<definition name="Registration.definition" template="/Registration.jsp">
+	</definition>
+		
+	
+</tiles-definitions>      
+       
